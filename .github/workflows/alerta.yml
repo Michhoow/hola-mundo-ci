@@ -25,7 +25,7 @@ jobs:
         if: always()
         run: |
           curl -s \
-            -H "Title: Push a main en ${{ github.repository }}" \
+            -H "Title: Hola mundo a netfy Michael Martinez 2024 2440" \
             -H "Tags: rocket" \
-            -d "${{ github.actor }} subió código a main (commit ${{ github.sha }}). Resultado: ${{ job.status }}" \
+            -d "Hola mundo a netfy Michael Martinez 2024 2440" \
             https://ntfy.sh/devops-itla
